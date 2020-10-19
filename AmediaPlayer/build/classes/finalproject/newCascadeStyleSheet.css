@@ -1,0 +1,78 @@
+#list{
+    -fx-width: 20%;
+    -fx-height:40%;
+}
+#play{
+    -fx-background-image: url("../images/play1.jpg");
+    -fx-background-size: 30 30;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color:transparent;
+}
+#pause{
+    -fx-background-image: url("../images/pause.jpg");
+    -fx-background-size: 30 30;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color:transparent;
+}
+#openfile{
+    -fx-background-image: url("../images/fileopen.jpg");
+    -fx-background-size: 30 30;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color:transparent;
+}
+#fast{
+    -fx-background-image: url("../images/fast.jpg");
+    -fx-background-size: 30 30;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color:transparent;
+}
+#slow{
+    -fx-background-image: url("../images/slow.jpg");
+    -fx-background-size: 30 30;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color:transparent;
+}
+#normal{
+    -fx-background-image: url("../images/normal.jpg");
+    -fx-background-size: 30 30;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color:transparent;
+}
+#dock{
+    -fx-background-color:#555;
+}
+#slider{
+    -fx-background-color:#red;
+}
+.list-view .list-cell:even {
+-fx-background-color: #01082A;
+-fx-text-fill: #fff;
+}
+.list-view .list-cell:odd {
+-fx-background-color: #010A35 ;
+-fx-text-fill: #fff;
+}
+.list-view .list-cell:selected {
+-fx-background-color: #3e24a5 ;
+-fx-text-fill: #fff;
+}
+#recent{
+    -fx-background-color: #010723 ;
+    -fx-font-family: Arial;
+    -fx-font-size:16px;
+}
+#back{
+    -fx-background-color:#002F53;
+    -fx-background-image: url("../images/back1.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size:cover;
+    -fx-width: 100%;
+    -fx-height:100%;
+}
